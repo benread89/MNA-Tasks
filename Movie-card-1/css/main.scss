@@ -1,0 +1,84 @@
+﻿
+body {
+    background: #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+header {
+    color: #ffffff;
+}
+
+
+.movieCard {
+    background: #ECECEC;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.headline {
+    padding: 5px 20px;
+    color: #22313F;
+}
+
+.criticRating {
+    padding-top: 20px;
+    margin-right: 40px;
+
+    small {
+        display: block;
+        color: #22313F;
+    }
+
+    span {
+        font-weight: bold;
+        font-size: 40px;
+        color: #22313F;
+    }
+
+    img {
+        vertical-align: text-bottom;
+    }
+}
+
+.movieDetails {
+    margin-top: 20px;
+}
+
+.nameSection {
+    li, p, span {
+        font-size: 12px;
+    }
+
+    h3 {
+        margin: 5px 0;
+    }
+}
+
+.rateMovie  li{
+    cursor:pointer;
+}
+
+.active {
+    background: #ffd800;
+}
+
+
+@media only screen and (min-width : 768px) {
+    .container {
+        width: 640px;
+    }
+}

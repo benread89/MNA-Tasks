@@ -1,0 +1,74 @@
+/* line 2, main.scss */
+body {
+  background: #6C7A89;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #000000;
+}
+
+/* line 9, main.scss */
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+/* line 13, main.scss */
+h2 {
+  font-size: 16px;
+}
+
+/* line 17, main.scss */
+h3 {
+  font-size: 12px;
+}
+
+/* line 21, main.scss */
+.movieCard {
+  background: #ECF0F1;
+  border-radius: 25px;
+  position: relative;
+  margin-top: 100px;
+  border: 5px solid #22313F;
+}
+
+/* line 29, main.scss */
+.hero-img {
+  margin-bottom: 0;
+  background-image: url("../img/header2.jpg");
+  max-height: 330px;
+  padding: 0 !important;
+}
+
+/* line 36, main.scss */
+.headline {
+  text-align: center;
+  color: #000000;
+}
+/* line 40, main.scss */
+.headline p {
+  text-align: center;
+}
+
+/* line 45, main.scss */
+.criticRating {
+  text-align: center;
+  background: #22313F;
+  color: #ECF0F1;
+  margin-bottom: 10px;
+}
+
+/* line 52, main.scss */
+.nameSection h3 {
+  font-size: 14px;
+}
+
+/* line 56, main.scss */
+.active {
+  background: #52B3D9;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 61, main.scss */
+  .container {
+    width: 640px;
+  }
+}

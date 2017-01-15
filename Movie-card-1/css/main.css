@@ -1,0 +1,92 @@
+/* line 2, main.scss */
+body {
+  background: #000000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+/* line 8, main.scss */
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+/* line 12, main.scss */
+h2 {
+  font-size: 18px;
+}
+
+/* line 16, main.scss */
+h3 {
+  font-size: 14px;
+}
+
+/* line 20, main.scss */
+header {
+  color: #ffffff;
+}
+
+/* line 25, main.scss */
+.movieCard {
+  background: #ECECEC;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 100px;
+}
+
+/* line 32, main.scss */
+.headline {
+  padding: 5px 20px;
+  color: #22313F;
+}
+
+/* line 37, main.scss */
+.criticRating {
+  padding-top: 20px;
+  margin-right: 40px;
+}
+/* line 41, main.scss */
+.criticRating small {
+  display: block;
+  color: #22313F;
+}
+/* line 46, main.scss */
+.criticRating span {
+  font-weight: bold;
+  font-size: 40px;
+  color: #22313F;
+}
+/* line 52, main.scss */
+.criticRating img {
+  vertical-align: text-bottom;
+}
+
+/* line 57, main.scss */
+.movieDetails {
+  margin-top: 20px;
+}
+
+/* line 62, main.scss */
+.nameSection li, .nameSection p, .nameSection span {
+  font-size: 12px;
+}
+/* line 66, main.scss */
+.nameSection h3 {
+  margin: 5px 0;
+}
+
+/* line 71, main.scss */
+.rateMovie li {
+  cursor: pointer;
+}
+
+/* line 75, main.scss */
+.active {
+  background: #ffd800;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 81, main.scss */
+  .container {
+    width: 640px;
+  }
+}
